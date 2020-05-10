@@ -32,7 +32,7 @@ else
 
   if !pr
     puts "Couldn't find an open pull request for branch with head at #{push_head}."
-    exit(1)
+    exit(0)
   end
   pr_number = pr["number"]
 end
